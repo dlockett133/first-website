@@ -16,7 +16,7 @@ body {
     color: #ffffff;
 }
 
-h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -33,20 +33,17 @@ nav {
     font-size: 20px;    
 }
 
- nav li {
+nav li {
     list-style-type:none;
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 /* These selectors (above) affect the styling of the 'header' and its contents */
 
 /* This selector affects the styling of the 'main' element */
@@ -75,6 +72,15 @@ p {
     margin-left: 25px;
 }
 
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,8 +106,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
+article img {
+    max-height: 200px; 
+}
+/* 
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -112,8 +122,17 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+p {
+    font-size: 16px;
+}
+/* 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -127,9 +146,9 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-/* These selectors affect the styling of the 'aside' elements and its contents */
+/* These selectors (below) affect the styling of the 'aside' elements and its contents */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -204,6 +223,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 } */
+/* These selectors (above) affect the styling of the 'aside' elements and its contents */
 
 .footer {
     padding: 30px;
