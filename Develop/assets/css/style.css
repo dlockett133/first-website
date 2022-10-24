@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* These selectors (below) affect the styling of the header and children elements */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,7 +47,9 @@ a {
 p {
     font-size: 16px;
 }
+/* These selectors (above) affect the styling of the 'header' and children elements */
 
+/* This selector affects the styling of the 'main' element */
 .hero {
     height: 800px;
     width: 100%;
