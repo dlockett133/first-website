@@ -45,6 +45,7 @@ nav a {
 }
 /* These selectors (above) affect the styling of the 'header' and its contents */
 
+/* This selector affects the background image*/
 .hero {
     height: 800px;
     width: 100%;
