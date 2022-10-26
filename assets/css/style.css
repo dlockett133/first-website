@@ -9,14 +9,14 @@ body {
 }
 
 /* These selectors (below) affect the styling of the header and children elements */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -69,7 +69,7 @@ nav a {
     margin-left: 25px;
 }
 
-article {
+.topic {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,16 +78,16 @@ article {
     color: #ffffff;
 }
 
-article img {
+.topic img {
     max-height: 200px; 
 }
 
-article h2 {
+.topic h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-p {
+.topic p {
     font-size: 16px;
 }
 /* These selectors (above) affects the styling of the 'main' element */
