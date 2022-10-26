@@ -8,7 +8,7 @@ Refactored the code on the index.html by:
 - Confirming the links in the nav bar werre working.
 
 Screenshot of div elements replaced with semantic elements:
-![Text](./assets/images/Semantic-code-screenshot.png)
+![Screenshot of div elements replaced with semantic elements](./assets/images/Semantic-code-screenshot.png)
 Refactored the CSS selectors in style-sheet by:
 
 - Organizing the selectors to match the logical structure of the html elements.
